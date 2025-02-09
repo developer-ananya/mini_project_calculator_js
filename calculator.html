@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">   
+</head>
+<body>
+    <table border="1" align="center" cellspacing="20px" cellpadding="20px" >
+        <tr>
+            <td id="display" colspan="4"></td>
+        </tr>
+
+        <tr>
+            <td id="d" onclick="del('Del')">Del</td>
+            <td id="c" onclick="cal('%')">%</td>
+            <td id="e" onclick="ac('ac')">Ac</td>
+            <td id="b"   onclick="cal('/')">/</td>
+
+        </tr>
+
+        <tr >
+            <td id="a" onclick="cal('7')">7</td>
+            <td id="a"onclick="cal('8')">8</td>
+            <td id="a"onclick="cal('9')">9</td>
+            <td  id="b"  onclick="cal('*')">*</td>
+            
+
+        </tr>
+
+        <tr>
+            <td id="a" onclick="cal('4')">4</td>
+            <td  id="a" onclick="cal('5')">5</td>
+            <td  id="a" onclick="cal('6')">6</td>
+            <td id="b"  onclick="cal('-')">-</td>
+            
+
+        </tr>
+
+        <tr>
+            <td  id="a"  onclick="cal('1')">1</td>
+            <td  id="a"  onclick="cal('2')">2</td>
+            <td  id="a"  onclick="cal('3')">3</td>
+            <td  id="b"  onclick="cal('+')">+</td>
+            
+
+        </tr>
+
+
+
+        <tr >
+            <td   id="a" onclick="cal('00')">00</td>
+            <td  id="a"  onclick="cal('0')">0</td>
+            <td  id="b"  onclick="cal('.')">.</td>
+            <td  id="b"  onclick="res()">=</td>
+        </tr>
+        
+        <tr>
+        <td id="c" d="square"  onclick="squ()">sq</td>
+        <td id="fun" onclick="fun()"  colspan="2"> Designed by .....</td>
+            <td id="c" id="cube" onclick="cub()">cube</td>
+        </tr>
+
+      
+    </table>
+    <script src="calculator.js"></script>
+</body>
+</html>

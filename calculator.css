@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+table{
+    background-color:rgba(0, 0, 0, 0.838);
+    border-radius: 10px;
+    border: 2px solid white;
+   
+ 
+}
+tr{
+    /* border: 2px solid rgb(231, 44, 44); */
+    color:white;
+    font-weight: bolder;
+    
+}
+
+#display{
+    /* border: 2px solid rgb(5, 251, 13); */
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    font-family: 'VT323', monospace;
+    font-size: 35px;
+    text-align: right;
+    
+
+    
+
+}
+td{
+    border-radius: 15%;
+    cursor: pointer;
+
+}
+td:hover{
+background-color: rgb(6, 5, 5);
+}
+
+
+#a{
+    background-color: rgb(102, 96, 96);
+    border-radius: 15%;
+    box-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white; 
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#a:hover{
+    background-color: rgb(6, 5, 5);
+    scale: 1.1 ;
+    box-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
+}
+
+#b{
+    background-color: goldenrod;
+    box-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white; 
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#b:hover{
+    background-color: rgb(71, 68, 39);
+    scale: 1.1;
+    box-shadow: 0 0 10px rgb(246, 232, 110), 0 0 10px rgb(246, 232, 110), 0 0 10px rgb(246, 232, 110);
+
+}
+#c{
+    background-color: green;
+    box-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white; 
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#c:hover{
+    background-color: rgb(34, 53, 28);
+    scale: 1.1;
+    box-shadow: 0 0 10px rgb(140, 244, 138), 0 0 10px rgb(140, 244, 138), 0 0 10px rgb(140, 244, 138);
+
+}
+#d{
+    background-color: rgb(32, 69, 218);
+    box-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white; 
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#d:hover{
+    background-color: rgb(49, 18, 18);
+    scale: 1.1;
+    box-shadow: 0 0 10px rgb(127, 169, 212), 0 0 10px rgb(127, 169, 212), 0 0 10px rgb(127, 169, 212);
+
+}
+#e{
+    background-color: red;
+    box-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white; 
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#e:hover{
+    background-color: rgb(56, 11, 11);
+    scale: 1.1;
+    box-shadow: 0 0 10px rgb(209, 113, 113), 0 0 10px rgb(209, 113, 113), 0 0 10px rgb(209, 113, 113);
+
+}
+#fun{
+    box-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white; 
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+fun:hover{
+    background-color: rgb(56, 11, 11);
+    scale: 1.1;
+    box-shadow: 0 0 10px rgb(209, 113, 113), 0 0 10px rgb(209, 113, 113), 0 0 10px rgb(209, 113, 113);
+   
+}
+
+
+
+@media (max-width: 450px){
+
+     
+    table{
+       
+       
+    }
+
+}
